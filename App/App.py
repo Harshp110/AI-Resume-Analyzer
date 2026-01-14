@@ -136,7 +136,7 @@ def run():
     st.sidebar.markdown("# Choose Something...")
     activities = ["User", "Feedback", "About", "Admin"]
     choice = st.sidebar.selectbox("Choose among the given options:", activities)
-    link = '<b>Built with 🤍 by <a href="https://dnoobnerd.netlify.app/" style="text-decoration: none; color: #021659;">Deepak Padhi</a></b>' 
+    link = '<b>Built with 🤍 by <a href="https://dnoobnerd.netlify.app/" style="text-decoration: none; color: #021659;">Harsh S. Pandav</a></b>' 
     st.sidebar.markdown(link, unsafe_allow_html=True)
     st.sidebar.markdown('''
         <!-- site visitors -->
@@ -652,7 +652,7 @@ def run():
 
         <p align="justify">
             Built with 🤍 by 
-            <a href="https://dnoobnerd.netlify.app/" style="text-decoration: none; color: grey;">Deepak Padhi</a> through 
+            <a href="https://dnoobnerd.netlify.app/" style="text-decoration: none; color: grey;">Harsh S. Pandav</a> through 
             <a href="https://www.linkedin.com/in/mrbriit/" style="text-decoration: none; color: grey;">Dr Bright --(Data Scientist)</a>
         </p>
 
@@ -789,3 +789,5 @@ def run():
 
 # Calling the main (run()) function to make the whole process run
 run()
+
+
